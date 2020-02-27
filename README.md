@@ -26,12 +26,12 @@ After (in Unity):
 ![Prefab](/examples/readme/final-prefab.jpg?raw=true "Prefab")
 
 ### Usage
-1. Place [LineobjImporter.cs](examples/basic-usage/Assets/LineobjImporter.cs) anywhere in your Unity project.
+1. Place [LineobjImporter.cs](LineobjImporter.cs) anywhere in your Unity project.
 2. Export model as `.obj` from Blender with these settings:
 
     ![Blender export settings](/examples/readme/blender-export-settings.jpg?raw=true "Blender export settings")
 
-    The most important thing is to uncheck `Triangulate Faces`. The importer will not work if you don't triangulate the faces. Other settings like `Include UVs`, `Write Materials`, or `Write Normals` can be turned on, but this importer will ignore these settings.
+    The most important thing is to check `Triangulate Faces`. The importer will not work if you don't triangulate the faces. Other settings like `Include UVs`, `Write Materials`, or `Write Normals` can be turned on, but this importer will ignore these settings.
 
 3. Rename the file extension from `.obj` to `.lineobj`
 
@@ -39,7 +39,7 @@ After (in Unity):
 
 ### Known to work with versions:
 * Blender: 2.78
-* Unity: 2017.1
+* Unity: 2019.3
 
 ### Supported OBJ features
 * Vertices
